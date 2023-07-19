@@ -1,0 +1,93 @@
+<!-- quick start -->
+<!-- author : arya dewangga puja -->
+<!-- open source quick start -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tag -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="author" content="arya dewangga puja" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="white" />
+
+    <!-- fav icon -->
+    <link rel="icon" href="" type="image/x-icon" />
+
+    <!-- custom style css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- title -->
+    <title>Get Your Waifu</title>
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <div>
+        <!-- nav-system -->
+        <nav class="navbar">
+          <h1 class="logo">Random Waifu</h1>
+          <button id="nav-toggle">
+            <i class="bi bi-list"></i>
+          </button>
+        </nav>
+        <div id="nav-link-list" class="nav-link">
+          <ul class="list">
+            <li class="link">
+              <a href="#home">
+                <i class="bi bi-houses"></i>
+                home
+              </a>
+            </li>
+            <li class="link"></li>
+            <li class="link">
+              <a href="https://docs.waifu.im/">
+                <i class="bi bi-filetype-json"></i>
+                APIs
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- nav-system -->
+
+        <!-- main -->
+        <main id="home">
+          <div class="waifu-list" id="waifu-list">
+            <div class="card">
+              <img
+                id="waifu-img"
+                decoding="async"
+                loading="lazy"
+                fetchpriority="high"
+                class="waifu-img"
+              />
+              <section>
+                <button id="l">Get Waifu</button>
+              </section>
+              <div id="preload" class="preload-img">
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <!-- main -->
+      </div>
+
+      <div>
+        <footer class="footer">
+          <h4>&copy;Arya Dewangga Puja</h4>
+        </footer>
+      </div>
+    </div>
+
+    <!-- custom script -->
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
