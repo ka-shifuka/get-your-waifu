@@ -12,6 +12,10 @@
   scroll-margin-top: 5rem;
 }
 
+body {
+  background-color: white;
+}
+
 .container {
   width: 100vw;
   min-height: 100vh;
